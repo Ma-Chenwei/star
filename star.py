@@ -13,7 +13,7 @@ class Star:
         self.sx = random.randint(3, 8)
         self.sy = random.randint(3, 8)
         self.t = 0.0001
-        self.imagepath = "./ch16/photo/2b50_color.png"
+        self.imagepath = "./2b50_color.png"
     def move1(self):
         if (screen.get_width() + 10 < self.x):
             self.x = -17
